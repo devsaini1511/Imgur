@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CodingChallengeImgur" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/royal_blue</item>
+        <item name="colorPrimaryVariant">@color/maybe_black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/beige_orange</item>
+        <item name="colorSecondaryVariant">@color/midnight_grey</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="TIRAMISU">@android:color/transparent
+        </item>
+        <item name="android:navigationBarColor">#01FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="Theme.CodingChallengeImgur" parent="Base.Theme.CodingChallengeImgur" />
+
+    <style name="RoundedEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxStrokeColor">@color/beige_orange</item>
+        <item name="boxStrokeWidthFocused">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="hintTextColor">#4d1a1a1a</item>
+        <item name="prefixTextAppearance">@style/HintAppearance</item>
+    </style>
+
+    <style name="HintAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+
+    <style name="RadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/selector_radio_button_background</item>
+        <item name="android:foreground">@drawable/ripple_royal_blue_flat_button_7</item>
+        <item name="android:textColor">@color/selector_radio_button_font_color</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableStart">@drawable/selector_radio_button_drawable</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+</resources>
